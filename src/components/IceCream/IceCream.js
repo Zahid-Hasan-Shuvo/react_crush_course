@@ -1,5 +1,6 @@
 import React from 'react';
 import classes from './IceCream.module.css';
+import Scoop from './Scoop/Scoop';
 
 const IceCream = () => {
   return (
@@ -8,7 +9,7 @@ const IceCream = () => {
              
             <p className={classes.cone}></p>  
                {/*<p>Please start adding scoops</p>*/} 
-                 {/* scope comment  */}
+                 <Scoop />
             
              
               <  div className={classes.cherry} />
